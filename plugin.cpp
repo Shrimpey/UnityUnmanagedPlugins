@@ -14,4 +14,8 @@ extern "C"{
     void DLL_EXPORT ReferenceArgumentFun(int &n){
         n=4;
     }
+
+    void DLL_EXPORT SimpleCallbackFun(SimpleCallback c){
+        c();
+    }
 }
