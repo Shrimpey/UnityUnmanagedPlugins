@@ -18,4 +18,8 @@ To create an unmanaged plugin for Unity you need to do the following:
 
 1.3. This function showcases how to pass argument by reference to c++.
 
+### Section 2 - Callbacks
+
+2.1. This function showcases how to trigger simple Unity callback from c++.
+
 ### Further sections - WIP
