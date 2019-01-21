@@ -13,4 +13,8 @@ extern "C"{
 
     typedef void (*SimpleCallback)();
     void DLL_EXPORT SimpleCallbackFun(SimpleCallback c);   //2.1.
+    typedef int (*SimpleReturnCallback)();
+    int DLL_EXPORT SimpleReturnCallbackFun(SimpleReturnCallback c);   //2.2.
+    typedef void (*SimpleArgCallback)(int n);
+    void DLL_EXPORT SimpleArgCallbackFun(SimpleArgCallback c);   //2.3.
 }
