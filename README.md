@@ -22,4 +22,8 @@ To create an unmanaged plugin for Unity you need to do the following:
 
 2.1. This function showcases how to trigger simple Unity callback from c++.
 
+2.2. This function showcases how to trigger Unity callback that returns simple type from c++.
+
+2.3. This function showcases how to trigger Unity callback that takes simple argument from c++.
+
 ### Further sections - WIP
